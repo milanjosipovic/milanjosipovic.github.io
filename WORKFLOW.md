@@ -54,8 +54,8 @@ Copy and adapt this template for your note:
 day: "01"
 title: "Centered Preview Card Component"
 date: "2026-10-14"
-github_url: "[https://github.com/milanjosipovic/100-days-of-code/tree/main/day-01](https://github.com/milanjosipovic/100-days-of-code/tree/main/day-01)"
-demo_url: "[https://milanjosipovic.rs/100-days-of-code/day-01/](https://milanjosipovic.rs/100-days-of-code/day-01/)"
+github_url: "[https://github.com/milanjosipovic/milanjosipovic.github.io/tree/main/day-01](https://github.com/milanjosipovic/milanjosipovic.github.io/tree/main/day-01)"
+demo_url: "[https://milanjosipovic.github.io/day-01/](https://milanjosipovic.github.io/day-01/)"
 status: "completed"
 tags:
   - html

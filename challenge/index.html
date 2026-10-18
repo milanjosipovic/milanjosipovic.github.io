@@ -1,97 +1,172 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>#100DaysOfCode Showcase Dashboard — Milan Josipović</title>
-    <meta name="description" content="Public tracking dashboard for Milan Josipović's 100 Days of Code challenge, featuring source code repositories and live project demos.">
-    <link rel="canonical" href="https://milanjosipovic.rs/challenge/">
-    <link rel="me" href="https://github.com/milanjosipovic">
-    <link rel="stylesheet" href="/assets/css/style.css">
-    <link rel="stylesheet" href="/assets/css/challenge.css">
-</head>
-<body>
+    <meta
+      name="description"
+      content="Public tracking dashboard for Milan Josipović's 100 Days of Code challenge, featuring source code repositories and live project demos."
+    />
+    <link rel="canonical" href="https://milanjosipovic.rs/challenge/" />
+    <link rel="me" href="https://github.com/milanjosipovic" />
+    <link rel="stylesheet" href="/assets/css/style.css" />
+    <link rel="stylesheet" href="/assets/css/challenge.css" />
+  </head>
+  <body>
     <header class="site-header">
-        <nav class="nav-container" aria-label="Main Navigation">
-            <a href="/" class="site-title">Milan Josipović</a>
-            <ul class="nav-links">
-                <li><a href="/about/">About</a></li>
-                <li><a href="/projects/">Projects</a></li>
-                <li><a href="/challenge/" class="active" aria-current="page">#100DaysOfCode</a></li>
-                <li><a href="/garden/">Digital Garden</a></li>
-            </ul>
-        </nav>
+      <nav class="nav-container" aria-label="Main Navigation">
+        <a href="/" class="site-title">Milan Josipović</a>
+        <ul class="nav-links">
+          <li><a href="/about/">About</a></li>
+          <li><a href="/projects/">Projects</a></li>
+          <li>
+            <a href="/challenge/" class="active" aria-current="page"
+              >#100DaysOfCode</a
+            >
+          </li>
+          <li><a href="/garden/">Digital Garden</a></li>
+        </ul>
+      </nav>
     </header>
 
     <main id="main-content">
-        <section class="challenge-hero">
-            <h1>#100DaysOfCode Showcase</h1>
-            <p>
-                Documenting my 100-day journey building software with an <strong>HTML-first approach</strong>, 
-                clean CSS, and Vanilla JavaScript. Everything is open source, tracked daily, and hosted on the open web.
-            </p>
-            <div class="metrics-grid">
-                <div class="metric-card">
-                    <span class="metric-value" id="current-streak">1</span>
-                    <span class="metric-label">Current Streak</span>
-                </div>
-                <div class="metric-card">
-                    <span class="metric-value" id="completed-days">1 / 100</span>
-                    <span class="metric-label">Days Completed</span>
-                </div>
-                <div class="metric-card">
-                    <span class="metric-value">Phase 1</span>
-                    <span class="metric-label">Current Phase (HTML & CSS)</span>
-                </div>
-            </div>
-        </section>
+      <section class="challenge-hero">
+        <h1>#100DaysOfCode Showcase</h1>
+        <p>
+          Documenting my 100-day journey building software with an
+          <strong>HTML-first approach</strong>, clean CSS, and Vanilla
+          JavaScript. Everything is open source, tracked daily, and hosted on
+          the open web.
+        </p>
+        <div class="metrics-grid">
+          <div class="metric-card">
+            <span class="metric-value" id="current-streak">1</span>
+            <span class="metric-label">Current Streak</span>
+          </div>
+          <div class="metric-card">
+            <span class="metric-value" id="completed-days">1 / 100</span>
+            <span class="metric-label">Days Completed</span>
+          </div>
+          <div class="metric-card">
+            <span class="metric-value">Phase 1</span>
+            <span class="metric-label">Current Phase (HTML & CSS)</span>
+          </div>
+        </div>
+      </section>
 
-        <section class="filter-bar flex-between">
-            <div class="filter-group flex">
-                <button class="filter-btn active" data-filter="all">All Days</button>
-                <button class="filter-btn" data-filter="phase1">Phase 1: Foundations</button>
-                <button class="filter-btn" data-filter="phase2">Phase 2: Modern JS</button>
-                <button class="filter-btn" data-filter="phase3">Phase 3: Design Systems</button>
-            </div>
-            <div class="github-repo-link">
-                <a href="https://github.com/milanjosipovic/100-days-of-code" class="btn-outline" target="_blank" rel="noopener">
-                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
-                    View Main Repository
-                </a>
-            </div>
-        </section>
+      <section class="filter-bar flex-between">
+        <div class="filter-group flex">
+          <button class="filter-btn active" data-filter="all">All Days</button>
+          <button class="filter-btn" data-filter="phase1">
+            Phase 1: Foundations
+          </button>
+          <button class="filter-btn" data-filter="phase2">
+            Phase 2: Modern JS
+          </button>
+          <button class="filter-btn" data-filter="phase3">
+            Phase 3: Design Systems
+          </button>
+        </div>
+        <div class="github-repo-link">
+          <a
+            href="https://github.com/milanjosipovic/milanjosipovic.github.io"
+            class="btn-outline"
+            target="_blank"
+            rel="noopener"
+          >
+            <svg
+              width="16"
+              height="16"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+            >
+              <path
+                d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"
+              ></path>
+            </svg>
+            View Main Repository
+          </a>
+        </div>
+      </section>
 
-        <section class="grid-auto showcase-grid">
-            
-            <article class="day-card completed h-entry" data-phase="phase1">
-                <div class="card-header flex-between">
-                    <span class="day-badge">Day 01</span>
-                    <span class="status-badge status-done">Completed</span>
-                </div>
-                <h2 class="card-title p-name">Semantic HTML5</h2>
-                <p class="card-desc p-summary">Write a short, punchy overview of what you achieved today.</p>
-                <div class="card-tags flex">
-                    <span class="tag">html</span><span class="tag">css</span><span class="tag">javascript</span>
-                </div>
-                <div class="card-actions flex">
-                    <a href="https://github.com/milanjosipovic/100-days-of-code/tree/main/day-01" class="action-link" target="_blank" rel="noopener">
-                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg>
-                        Source Code
-                    </a>
-                    <a href="https://milanjosipovic.github.io/100-days-of-code/day-01/" class="action-link live-link" target="_blank" rel="noopener">
-                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
-                        Live Demo
-                    </a>
-                </div>
-                <div class="card-footer">
-                    <a href="/challenge/logs/day-01.html" class="log-link">Read Daily Log &rarr;</a>
-                </div>
-            </article>
-        </section>
+      <section class="grid-auto showcase-grid">
+        <article class="day-card completed h-entry" data-phase="phase1">
+          <div class="card-header flex-between">
+            <span class="day-badge">Day 01</span>
+            <span class="status-badge status-done">Completed</span>
+          </div>
+          <h2 class="card-title p-name">Semantic HTML5</h2>
+          <p class="card-desc p-summary">
+            Write a short, punchy overview of what you achieved today.
+          </p>
+          <div class="card-tags flex">
+            <span class="tag">html</span><span class="tag">css</span
+            ><span class="tag">javascript</span>
+          </div>
+          <div class="card-actions flex">
+            <a
+              href="https://github.com/milanjosipovic/milanjosipovic.github.io/tree/main/day-01"
+              class="action-link"
+              target="_blank"
+              rel="noopener"
+            >
+              <svg
+                width="14"
+                height="14"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+              >
+                <path
+                  d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"
+                ></path>
+                <path
+                  d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"
+                ></path>
+              </svg>
+              Source Code
+            </a>
+            <a
+              href="https://milanjosipovic.github.io/day-01/"
+              class="action-link live-link"
+              target="_blank"
+              rel="noopener"
+            >
+              <svg
+                width="14"
+                height="14"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+              >
+                <path
+                  d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"
+                ></path>
+                <polyline points="15 3 21 3 21 9"></polyline>
+                <line x1="10" y1="14" x2="21" y2="3"></line>
+              </svg>
+              Live Demo
+            </a>
+          </div>
+          <div class="card-footer">
+            <a href="/challenge/logs/day-01.html" class="log-link"
+              >Read Daily Log &rarr;</a
+            >
+          </div>
+        </article>
+      </section>
     </main>
 
     <footer class="site-footer">
-        <p>&copy; <time datetime="2026">2026</time> Milan Josipović. Built with semantic HTML, CSS, and Vanilla JS.</p>
+      <p>
+        &copy; <time datetime="2026">2026</time> Milan Josipović. Built with
+        semantic HTML, CSS, and Vanilla JS.
+      </p>
     </footer>
-</body>
+  </body>
 </html>
