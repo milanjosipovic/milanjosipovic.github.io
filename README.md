@@ -1,15 +1,15 @@
 # Milan Josipović — Systems, Product, UX, and Digital Architecture
 
-[![Website](https://img.shields.io/badge/Live-Website-2D6CDF?style=for-the-badge)](https://milanjosipovic.rs/)
-[![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-Live%20Project-181717?style=for-the-badge)](https://milanjosipovic.rs/challenge/)
-[![Open Source](https://img.shields.io/badge/Open%20Source-Values-1f883d?style=for-the-badge)](https://github.com/milanjosipovic)
+[![Website](https://img.shields.io/badge/Website-GitHub%20Pages-2D6CDF?style=for-the-badge)](https://milanjosipovic.github.io/)
+[![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-Live%20Project-181717?style=for-the-badge)](https://milanjosipovic.github.io/challenge/)
+[![Open Source](https://img.shields.io/badge/Open%20Source-Values-1f883d?style=for-the-badge)](https://github.com/milanjosipovic/milanjosipovic.github.io)
 [![IndieWeb](https://img.shields.io/badge/IndieWeb-POSSE-FF5A5F?style=for-the-badge)](https://indiewweb.org/)
 [![Obsidian](https://img.shields.io/badge/Second%20Brain-Obsidian%20%2B%20AI-6A5ACD?style=for-the-badge)](https://obsidian.md/)
-[![Learning Model](https://img.shields.io/badge/Learning-Hands-on%20Systems-FF8C00?style=for-the-badge)](https://github.com/milanjosipovic)
+[![Learning Model](https://img.shields.io/badge/Learning-Hands-on%20Systems-FF8C00?style=for-the-badge)](https://github.com/milanjosipovic/milanjosipovic.github.io)
 
-Live project: https://milanjosipovic.rs/
+Live project: https://milanjosipovic.github.io/
 
-Challenge dashboard: https://milanjosipovic.rs/challenge/
+Challenge dashboard: https://milanjosipovic.github.io/challenge/
 
 ## Executive summary
 
@@ -217,9 +217,9 @@ A few visual references for the live project ecosystem.
 
 This project is publicly available through the live site and challenge pages:
 
-- Website: https://milanjosipovic.rs/
-- Challenge dashboard: https://milanjosipovic.rs/challenge/
-- Daily logs: https://milanjosipovic.rs/challenge/logs/
+- Website: https://milanjosipovic.github.io/
+- Challenge dashboard: https://milanjosipovic.github.io/challenge/
+- Daily logs: https://milanjosipovic.github.io/challenge/logs/
 
 ## Long-term value
 
