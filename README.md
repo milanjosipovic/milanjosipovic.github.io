@@ -209,11 +209,11 @@ A few visual references from the live project experience.
 
 ### Homepage
 
-![Homepage screenshot](assets/screenshots/homepage.png)
+![Homepage screenshot](assets/screenshots/homepage-blue.png)
 
 ### Challenge dashboard
 
-![Challenge dashboard screenshot](assets/screenshots/challenge-dashboard.png)
+![Challenge dashboard screenshot](assets/screenshots/challenge-dashboard-blue.png)
 
 ## Live deployment
 
