@@ -42,29 +42,21 @@ If you get stuck or need structured feedback without getting solution code revea
 
 Once your implementation satisfies the acceptance criteria in day-XX/README.md, document your process inside your Obsidian Vault.
 
-### Step 1: Create the Daily Log Note
-Create a new Markdown file at the following path:
+### Step 1: Run the Daily Log Template
+Open the Obsidian template file at:
+/home/milan/Documents/Obsidian Vault/30_Resources/templates/100-Days-Log-Template.md.md
+
+Then run the template prompt and enter:
+- the day number, for example `01`
+- the challenge title, for example `Semantic HTML5`
+
+This creates the correct file automatically:
 /home/milan/Documents/Obsidian Vault/20_Areas/Daily Challenge/day-XX/day-XX.md
 
-### Step 2: Populate Frontmatter & Body Content
-Copy and adapt this template for your note:
+### Step 2: Write the Daily Reflection
+Open the generated day-XX.md file and write the actual daily summary, what you built today, the key concepts, and the learning notes.
 
-```yaml
----
-day: "01"
-title: "Centered Preview Card Component"
-date: "2026-10-14"
-github_url: "[https://github.com/milanjosipovic/milanjosipovic.github.io/tree/main/day-01](https://github.com/milanjosipovic/milanjosipovic.github.io/tree/main/day-01)"
-demo_url: "[https://milanjosipovic.github.io/day-01/](https://milanjosipovic.github.io/day-01/)"
-status: "completed"
-tags:
-  - html
-  - css
-  - flexbox
----
-
-Today I built a centered preview card using semantic HTML5 and CSS Flexbox.
-```
+The template already creates the correct frontmatter and repo/demo links for the active project, so there is no need to manually copy or recreate those fields.
 
 
 ### Key Learnings
