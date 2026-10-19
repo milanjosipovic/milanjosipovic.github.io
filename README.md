@@ -2,7 +2,7 @@
 
 [![Website](https://img.shields.io/badge/Website-GitHub%20Pages-2D6CDF?style=for-the-badge)](https://milanjosipovic.github.io/)
 [![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-Live%20Project-181717?style=for-the-badge)](https://milanjosipovic.github.io/challenge/)
-[![Open Source](https://img.shields.io/badge/Open%20Source-Values-1f883d?style=for-the-badge)](https://github.com/milanjosipovic/milanjosipovic.github.io)
+[![Repository](https://img.shields.io/badge/Repository-GitHub-1f883d?style=for-the-badge)](https://github.com/milanjosipovic/milanjosipovic.github.io)
 [![IndieWeb](https://img.shields.io/badge/IndieWeb-POSSE-FF5A5F?style=for-the-badge)](https://indiewweb.org/)
 [![Obsidian](https://img.shields.io/badge/Second%20Brain-Obsidian%20%2B%20AI-6A5ACD?style=for-the-badge)](https://obsidian.md/)
 [![Learning Model](https://img.shields.io/badge/Learning-Hands-on%20Systems-FF8C00?style=for-the-badge)](https://github.com/milanjosipovic/milanjosipovic.github.io)
@@ -10,6 +10,8 @@
 Live project: https://milanjosipovic.github.io/
 
 Challenge dashboard: https://milanjosipovic.github.io/challenge/
+
+GitHub repo: https://github.com/milanjosipovic/milanjosipovic.github.io
 
 ## Executive summary
 
@@ -135,8 +137,8 @@ This repository is not separate from my professional identity. It is one of the 
 
 ## Project structure
 
-- [CURRICULUM.md](CURRICULUM.md) — the 100-day roadmap and skill progression
-- [CONCEPTS_MAP.md](CONCEPTS_MAP.md) — the technical concepts assigned to each day
+- [CURRICULUM.md](CURRICULUM.md) — the full 100-day roadmap and skill progression
+- [CONCEPTS_MAP.md](CONCEPTS_MAP.md) — the tech concepts assigned to each day
 - [WORKFLOW.md](WORKFLOW.md) — the implementation, production, and publishing process
 - [day-01](day-01) — the active challenge folder for daily execution
 - [challenge](challenge) — generated dashboard, logs, and published outputs
@@ -185,7 +187,7 @@ The build command used for generated outputs is:
 node build-challenge.js
 ```
 
-## Repo flow diagram
+## Repository flow diagram
 
 This diagram explains how the repository operates as a systems-based learning and publishing pipeline.
 
@@ -203,15 +205,15 @@ flowchart LR
 
 ## Screenshots
 
-A few visual references for the live project ecosystem.
+A few visual references from the live project experience.
 
-### Homepage mockup
+### Homepage
 
-![Homepage mockup](assets/screenshots/homepage-mockup.svg)
+![Homepage screenshot](assets/screenshots/homepage.png)
 
-### Challenge dashboard mockup
+### Challenge dashboard
 
-![Challenge dashboard mockup](assets/screenshots/dashboard-mockup.svg)
+![Challenge dashboard screenshot](assets/screenshots/challenge-dashboard.png)
 
 ## Live deployment
 
@@ -220,6 +222,7 @@ This project is publicly available through the live site and challenge pages:
 - Website: https://milanjosipovic.github.io/
 - Challenge dashboard: https://milanjosipovic.github.io/challenge/
 - Daily logs: https://milanjosipovic.github.io/challenge/logs/
+- GitHub repo: https://github.com/milanjosipovic/milanjosipovic.github.io
 
 ## Long-term value
 
@@ -243,110 +246,3 @@ This project is released under the MIT License. See [LICENSE](LICENSE) for full 
 ---
 
 Built for clarity, craft, systems thinking, and meaningful digital work.
-
-## Project structure
-
-- [CURRICULUM.md](CURRICULUM.md) — the full 100-day roadmap and tiered difficulty progression
-- [CONCEPTS_MAP.md](CONCEPTS_MAP.md) — the tech concepts assigned to each day
-- [WORKFLOW.md](WORKFLOW.md) — the implementation, logging, and deployment process
-- [day-01](day-01) — the current daily challenge workspace
-- [challenge](challenge) — generated dashboard and published daily logs
-- [assets](assets) — shared visual assets and styling resources
-- [build-challenge.js](build-challenge.js) — automation for challenge dashboard generation
-- [index.html](index.html) — entry page and project hub
-- [LICENSE](LICENSE) — repository licensing information
-
-## Daily challenge system
-
-Each challenge follows a repeatable structure:
-
-```text
-day-XX/
-├── index.html
-├── styles.css
-├── script.js
-├── README.md
-```
-
-The daily workflow reinforces:
-
-- semantic HTML structure
-- CSS layout and visual design
-- JavaScript interactivity and state logic
-- real product thinking
-- buildable, testable frontend patterns
-
-## Learning model
-
-This system is built around action over passivity:
-
-1. Choose a challenge from the curriculum
-2. Study the required concept and constraints
-3. Implement the UI in code
-4. Validate the result in the browser
-5. Record the learning and reflection
-6. Publish the work and repeat consistently
-
-The build command used for generated outputs is:
-
-```bash
-node build-challenge.js
-```
-
-## Repo flow diagram
-
-This diagram explains how the repository works as a learning and publishing system:
-
-```mermaid
-flowchart LR
-    A[Obsidian Notes + Ideas] --> B[Curriculum + Daily Tasks]
-    B --> C[day-XX Project Files]
-    C --> D[Build Script]
-    D --> E[Challenge Dashboard + Daily Logs]
-    E --> F[GitHub Pages]
-    F --> G[Public Website + Challenge Site]
-```
-
-![Repository flow diagram](assets/diagrams/repo-flow-diagram.svg)
-
-## Screenshots
-
-A few visual references for the live project experience:
-
-### Homepage mockup
-
-![Homepage mockup](assets/screenshots/homepage-mockup.svg)
-
-### Challenge dashboard mockup
-
-![Challenge dashboard mockup](assets/screenshots/dashboard-mockup.svg)
-
-## Live deployment
-
-This project is publicly available through the site and challenge pages:
-
-- Website: https://milanjosipovic.rs/
-- Challenge dashboard: https://milanjosipovic.rs/challenge/
-- Daily logs: https://milanjosipovic.rs/challenge/logs/
-
-## Long-term value
-
-This repository is not a disposable exercise set. It is a visible system for:
-
-- improving frontend fundamentals through repetition
-- proving capability through actual output
-- building a public digital identity and portfolio
-- combining AI with human learning in a structured way
-- creating a sustainable workflow for long-term development practice
-
-## Status
-
-This workspace is an active challenge environment for the #100DaysOfCode initiative and ongoing frontend learning practice.
-
-## License
-
-This project is released under the MIT License. See [LICENSE](LICENSE) for full details.
-
----
-
-Built for consistent execution, public learning, and open web craftsmanship.
