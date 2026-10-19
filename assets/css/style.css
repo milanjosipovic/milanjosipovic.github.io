@@ -20,15 +20,15 @@ html {
 
 /* Root variables for typography, colors, and layout rhythm */
 :root {
-  /* Color Palette (Light Theme Default) */
-  --bg-primary: #fcfcfc;
-  --bg-surface: #ffffff;
-  --bg-subtle: #f3f4f6;
-  --border-color: #e5e7eb;
-  --text-primary: #111827;
-  --text-secondary: #4b5563;
-  --accent: #2563eb;
-  --accent-hover: #1d4ed8;
+  /* Fixed blue theme for consistent branding */
+  --bg-primary: #0f172a;
+  --bg-surface: #1e293b;
+  --bg-subtle: #334155;
+  --border-color: #334155;
+  --text-primary: #f8fafc;
+  --text-secondary: #94a3b8;
+  --accent: #38bdf8;
+  --accent-hover: #7dd3fc;
 
   /* Typography Scale */
   --font-sans:
@@ -56,20 +56,6 @@ html {
   --max-width: 1080px;
   --radius-sm: 6px;
   --radius-md: 10px;
-}
-
-/* Dark Mode (Respects OS Preference) */
-@media (prefers-color-scheme: dark) {
-  :root {
-    --bg-primary: #0f172a;
-    --bg-surface: #1e293b;
-    --bg-subtle: #334155;
-    --border-color: #334155;
-    --text-primary: #f8fafc;
-    --text-secondary: #94a3b8;
-    --accent: #38bdf8;
-    --accent-hover: #7dd3fc;
-  }
 }
 
 /* ==========================================================================
