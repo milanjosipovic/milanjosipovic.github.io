@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&display=swap");
+
 /* ==========================================================================
    1. MODERN CSS RESET & BOX SIZING
    ========================================================================== */
@@ -32,7 +34,7 @@ html {
 
   /* Typography Scale */
   --font-sans:
-    "JetBrains Mono Nerd", "JetBrains Mono", "JetBrainsMono Nerd Font",
+    "JetBrains Mono", "JetBrains Mono Nerd", "JetBrainsMono Nerd Font",
     ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
     "Courier New", monospace;
   --font-mono: var(--font-sans);
