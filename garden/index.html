@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Digital Garden — Milan Josipović</title>
+    <link rel="stylesheet" href="/assets/css/style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="nav-container" aria-label="Main Navigation">
+        <a href="/" class="site-title">Milan Josipović</a>
+        <ul class="nav-links">
+          <li><a href="/about/">About</a></li>
+          <li><a href="/projects/">Projects</a></li>
+          <li>
+            <a href="/case-studies/index.html" class="active">Case Studies</a>
+          </li>
+          <li><a href="/lectures/index.html">Lectures</a></li>
+          <li><a href="/challenge/index.html">#100DaysOfCode</a></li>
+          <li><a href="/garden/index.html">Digital Garden</a></li>
+        </ul>
+      </nav>
+    </header>
+    <!-- Essay Layout Container (2-Column: TOC + Reading Pane) -->
+    <div class="essay-layout-container">
+      <!-- Left Column: Table of Contents / Navigation Sidebar -->
+      <aside class="essay-toc-sidebar">
+        <span class="toc-title">Table of Contents</span>
+        <ul class="toc-list">
+          <li>
+            <a
+              href="#note-architecture"
+              class="toc-link active"
+              data-target="note-architecture"
+              >Architecture &amp; Systems</a
+            >
+          </li>
+          <li>
+            <a
+              href="#note-frontend"
+              class="toc-link"
+              data-target="note-frontend"
+              >Frontend Craft &amp; AI</a
+            >
+          </li>
+          <li>
+            <a
+              href="#note-philosophy"
+              class="toc-link"
+              data-target="note-philosophy"
+              >Philosophy &amp; Poetry</a
+            >
+          </li>
+        </ul>
+      </aside>
+
+      <!-- Center Column: Main Essay / Reading Pane -->
+      <main class="essay-main-content">
+        <!-- Note 1 -->
+        <article id="note-architecture" class="essay-article active-essay">
+          <header class="essay-header">
+            <span class="status-badge growing">🌿 Growing Note</span>
+            <h1>Architecture &amp; Systems</h1>
+            <p class="essay-meta">Last updated: November 2026</p>
+          </header>
+
+          <div class="essay-body">
+            <p>
+              Exploring patterns, modular design, and independent sovereign web
+              infrastructure. Moving away from heavy framework lock-ins and
+              returning to the raw fundamentals of the open web.
+            </p>
+            <p>
+              When building scalable systems for regional applications—such as
+              hospitality platforms or estate presentations—keeping the core
+              architecture lightweight ensures absolute reliability and zero
+              recurring platform tax.
+            </p>
+          </div>
+        </article>
+
+        <!-- Note 2 -->
+        <article id="note-frontend" class="essay-article">
+          <header class="essay-header">
+            <span class="status-badge seedling">🌱 Seedling Note</span>
+            <h1>Frontend Craft &amp; Socratic AI</h1>
+            <p class="essay-meta">Last updated: November 2026</p>
+          </header>
+
+          <div class="essay-body">
+            <p>
+              Semantic HTML5, pure CSS3 workflows, and context-aware tool usage.
+              Using AI not as an autopilot, but as a Socratic sparring partner
+              to sharpen logic and clean code architecture.
+            </p>
+          </div>
+        </article>
+
+        <!-- Note 3 -->
+        <article id="note-philosophy" class="essay-article">
+          <header class="essay-header">
+            <span class="status-badge evergreen">🌲 Evergreen Note</span>
+            <h1>Philosophy &amp; Poetry</h1>
+            <p class="essay-meta">Last updated: October 2026</p>
+          </header>
+
+          <div class="essay-body">
+            <p>
+              Reflections on classical literature, rhythm in speech delivery,
+              and the human side of technical craftsmanship. Drawing parallels
+              between Christopher Alexander's architectural patterns and digital
+              code organization.
+            </p>
+          </div>
+        </article>
+      </main>
+    </div>
+
+    <footer class="site-footer">
+      <p>&copy; 2026 Milan Josipović — Built on the Open Web</p>
+    </footer>
+
+    <!-- Script to Handle TOC Navigation & Article Switching -->
+    <script>
+      document.querySelectorAll(".toc-link").forEach((link) => {
+        link.addEventListener("click", (e) => {
+          e.preventDefault();
+
+          document
+            .querySelectorAll(".toc-link")
+            .forEach((l) => l.classList.remove("active"));
+          document
+            .querySelectorAll(".essay-article")
+            .forEach((a) => a.classList.remove("active-essay"));
+
+          link.classList.add("active");
+          const targetId = link.getAttribute("data-target");
+          document.getElementById(targetId).classList.add("active-essay");
+
+          window.scrollTo({ top: 0, behavior: "smooth" });
+        });
+      });
+    </script>
+  </body>
+</html>

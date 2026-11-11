@@ -350,3 +350,382 @@ svg {
     padding-left: 1.2rem;
   }
 }
+
+/* ==========================================================================
+   6. Lectures page styles
+========================================================================== */
+.current-course,
+.curriculum-roadmap {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+.course-highlight-card,
+.roadmap-item {
+  background: rgba(255, 255, 255, 0.02);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 8px;
+  padding: 2rem;
+  text-align: left; /* Cleaner readability for technical text */
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 1rem;
+}
+.course-highlight-card h3 {
+  font-size: 1.25rem;
+  color: #38bdf8;
+  margin-bottom: 0.75rem;
+}
+
+.course-highlight-card p {
+  margin-bottom: 1rem;
+  line-height: 1.5;
+  color: #cbd5e1;
+}
+
+.roadmap-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+  margin-top: 2rem;
+  align-items: stretch;
+}
+/* Distinct separation for the card heading */
+.roadmap-item h3 {
+  font-size: 1.15rem;
+  color: #38bdf8; /* Accent color to pop against body text */
+  margin-bottom: 0.75rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08); /* Clean divider line */
+}
+
+.roadmap-item p {
+  font-size: 0.95rem;
+  line-height: 1.5;
+  color: #cbd5e1;
+  margin: 0;
+}
+.btn-watch {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  background: #38bdf8;
+  color: #0f172a;
+  font-weight: bold;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+.btn-watch:hover {
+  background: #0ea5e9;
+}
+.content-container {
+  text-align: center;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+.content-container p.subtitle {
+  margin: 0.5rem auto 2rem auto;
+  max-width: 600px;
+}
+.latest-lecture {
+  text-align: center; /* Centers inline or inline-block children */
+  margin-top: 1.5rem;
+}
+
+.btn-watch {
+  display: inline-block;
+  margin-top: 0.5rem;
+  padding: 0.75rem 1.5rem;
+  background: #38bdf8;
+  color: #0f172a;
+  font-weight: bold;
+  border-radius: 6px;
+  text-decoration: none;
+}
+
+.btn-watch:hover {
+  background: #0ea5e9;
+}
+
+/* ==========================================================================
+   7. Projects & Systems page styles
+========================================================================== */
+/* Centered container modifier for pages like Projects & Lectures */
+.content-container.projects-container {
+  text-align: center;
+}
+
+.content-container.projects-container .projects-grid {
+  text-align: left;
+  margin-top: 2rem;
+}
+
+/* Push action buttons to the bottom of cards consistently */
+.roadmap-item .btn-project {
+  margin-top: auto;
+  text-align: center;
+}
+
+/* Footer spacing for nested pages */
+.site-footer {
+  text-align: center;
+  margin-top: 4rem;
+}
+/* Container that pushes buttons to the bottom and stacks them vertically */
+.roadmap-item .card-actions {
+  margin-top: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem; /* Space between the two buttons */
+  padding-top: 1.5rem;
+}
+
+/* Primary Button Styling */
+.roadmap-item .btn-watch {
+  display: block;
+  width: 100%;
+  text-align: center;
+  padding: 0.75rem 1rem;
+  background: #38bdf8;
+  color: #0f172a;
+  font-weight: bold;
+  border-radius: 6px;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+.roadmap-item .btn-watch:hover {
+  background: #0ea5e9;
+}
+
+/* Secondary Button Styling for GitHub Repo */
+.roadmap-item .btn-secondary {
+  background: transparent;
+  color: #38bdf8;
+  border: 1px solid rgba(56, 189, 248, 0.4);
+}
+
+.roadmap-item .btn-secondary:hover {
+  background: rgba(56, 189, 248, 0.1);
+  color: #38bdf8;
+}
+/* ==========================================================================
+   8. Case Studies page styles
+========================================================================== */
+/* Forces a single-column row layout for pages like Case Studies */
+/* Optimized full-width container for long-form reading */
+.roadmap-grid.single-column-grid {
+  grid-template-columns: 1fr;
+  max-width: 900px; /* Wider measure for comfortable long-form reading */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Deep card styling for articles / case studies */
+.roadmap-item.case-study-card {
+  padding: 2.5rem 3rem;
+  text-align: left;
+}
+
+.case-study-card h3 {
+  font-size: 1.5rem;
+  color: #38bdf8;
+  margin-bottom: 1.5rem;
+  padding-bottom: 0.75rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+/* Structured content blocks inside the long-form card */
+.case-study-section {
+  margin-bottom: 1.5rem;
+}
+
+.case-study-section h4 {
+  font-size: 1.1rem;
+  color: #f8fafc;
+  margin-bottom: 0.5rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.case-study-section p {
+  font-size: 1.05rem;
+  line-height: 1.75; /* Generous line height for extended reading */
+  color: #cbd5e1;
+  margin: 0;
+}
+
+/* Action buttons pinned nicely at the bottom */
+.case-study-card .card-actions {
+  margin-top: 2rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+.case-study-card .card-actions .btn-watch {
+  flex: 1;
+}
+/* ==========================================================================
+   9. Digital Garden page styles
+========================================================================== */
+/* --- Maggie Appleton Style Essay Layout --- */
+
+/* Updated 2-Column Essay Layout (TOC + Reading Pane) */
+.essay-layout-container {
+  display: grid;
+  grid-template-columns: 240px minmax(0, 800px);
+  gap: 4rem;
+  max-width: 1150px;
+  margin: 3rem auto;
+  padding: 0 2rem;
+  align-items: start;
+  justify-content: center;
+}
+
+/* Left TOC Sidebar */
+.essay-toc-sidebar {
+  position: sticky;
+  top: 2rem;
+}
+
+.toc-title {
+  display: block;
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: #64748b;
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+.toc-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.toc-link {
+  display: block;
+  padding: 0.5rem 0.75rem;
+  color: #94a3b8;
+  text-decoration: none;
+  border-radius: 4px;
+  font-size: 0.95rem;
+  transition:
+    color 0.2s,
+    background 0.2s;
+}
+
+.toc-link:hover {
+  color: #f8fafc;
+  background: rgba(255, 255, 255, 0.03);
+}
+
+.toc-link.active {
+  color: #38bdf8;
+  background: rgba(56, 189, 248, 0.08);
+  font-weight: 500;
+}
+
+/* Center Main Reading Column */
+.essay-main-content {
+  text-align: left;
+}
+
+.essay-article {
+  display: none;
+}
+
+.essay-article.active-essay {
+  display: block;
+}
+
+.essay-header {
+  margin-bottom: 2rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.essay-header h1 {
+  font-size: clamp(2rem, 3vw, 2.75rem);
+  color: #f8fafc;
+  margin: 0.75rem 0 0.5rem 0;
+  letter-spacing: -0.02em;
+}
+
+.essay-meta {
+  font-size: 0.9rem;
+  color: #64748b;
+}
+
+.essay-body p {
+  font-size: 1.125rem;
+  line-height: 1.8;
+  color: #cbd5e1;
+  margin-bottom: 1.5rem;
+}
+
+/* Right Marginalia Column */
+.essay-marginalia {
+  position: sticky;
+  top: 2rem;
+}
+
+.marginalia-box {
+  background: rgba(255, 255, 255, 0.02);
+  border-left: 2px solid #38bdf8;
+  padding: 1.25rem;
+  border-radius: 0 6px 6px 0;
+}
+
+.marginalia-title {
+  display: block;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: #38bdf8;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+}
+
+.marginalia-box p {
+  font-size: 0.9rem;
+  line-height: 1.6;
+  color: #94a3b8;
+  margin: 0;
+}
+
+/* Responsive collapse for tablets and mobile */
+@media (max-width: 1100px) {
+  .essay-layout-container {
+    grid-template-columns: 220px 1fr;
+  }
+  .essay-marginalia {
+    display: none; /* Hide marginalia on mid-size screens */
+  }
+}
+
+@media (max-width: 768px) {
+  .essay-layout-container {
+    grid-template-columns: 1fr;
+    padding: 0 1rem;
+  }
+  .essay-toc-sidebar {
+    position: static;
+    margin-bottom: 2rem;
+    background: rgba(255, 255, 255, 0.02);
+    padding: 1rem;
+    border-radius: 8px;
+  }
+}
